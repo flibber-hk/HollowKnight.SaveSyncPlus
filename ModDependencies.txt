@@ -1,0 +1,7 @@
+Randomizer 4
+MenuChanger
+RandomizerCore
+ItemChanger
+ItemSync
+MultiWorldLib
+RandoSettingsManager
