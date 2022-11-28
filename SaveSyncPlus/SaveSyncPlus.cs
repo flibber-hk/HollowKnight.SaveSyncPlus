@@ -64,7 +64,7 @@ namespace SaveSyncPlus
             RequestBuilder.OnUpdate.Subscribe(-10000f, LoadPacks);
 
             MenuHolder.Hook();
-            if (ModHooks.GetMod("RandoSettingsManagerMod") is not null)
+            if (ModHooks.GetMod("RandoSettingsManager") is not null)
             {
                 RandoSettingsManagerInterop.Hook();
             }
