@@ -20,7 +20,7 @@ namespace SaveSyncPlus
         public void OnLoadGlobal(GlobalSettings s)
         {
             GS = s;
-            GS.EnabledPackNames ??= new();
+            GS.Clamp();
         }
         public GlobalSettings OnSaveGlobal() => GS;
 
@@ -33,6 +33,8 @@ namespace SaveSyncPlus
             return JsonConvert.DeserializeObject<SyncedDataPack>(text);
         }
         internal static void SavePack(string packName, SyncedDataPack pack) => Finder.Serialize(PackPath(packName), pack);
+
+        internal static bool CheckPack(string packName) => File.Exists(PackPath(packName));
 
         internal static IEnumerable<string> GetPackNames()
         {
@@ -75,6 +77,8 @@ namespace SaveSyncPlus
 
         private void LoadPacks(RequestBuilder rb)
         {
+            GS.Clamp();
+
             _combinedDataPack = new();
 
             if (!GS.IsEnabled()) return;
