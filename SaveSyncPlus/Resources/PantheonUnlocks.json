@@ -1,0 +1,52 @@
+{
+  "PdBoolNames": [
+    "killedTraitorLord",
+    "killedGhostXero",
+    "killedHiveKnight",
+    "greyPrinceDefeated",
+    "defeatedMegaJelly",
+    "defeatedDungDefender",
+    "whiteDefenderDefeated",
+    "killedGhostGalien",
+    "killedGhostNoEyes",
+    "killedInfectedKnight",
+    "infectedKnightDreamDefeated",
+    "killedGhostAladar",
+    "mageLordDefeated",
+    "mageLordDreamDefeated",
+    "falseKnightDefeated",
+    "falseKnightDreamDefeated",
+    "killedMimicSpider",
+    "killedMageKnight",
+    "flukeMotherDefeated",
+    "killedGhostHu",
+    "killedGhostMarmu",
+    "killedGrimm",
+    "killedNightmareGrimm",
+    "destroyedNightmareLantern",
+    "killedGhostMarkoth",
+    "collectorDefeated",
+    "hornet1Defeated",
+    "hornetOutskirtsDefeated",
+    "killedMawlek",
+    "colosseumSilverCompleted",
+    "defeatedMegaBeamMiner",
+    "defeatedMantisLords",
+    "killedMegaMossCharger"
+  ],
+  "PdIntNames": [],
+  "SdBoolNames": [
+    {
+      "SceneName": "Ruins2_03",
+      "Id": "Battle Control"
+    },
+    {
+      "SceneName": "Crossroads_04",
+      "Id": "Battle Scene"
+    },
+    {
+      "SceneName": "Mines_32",
+      "Id": "Zombie Beam Miner Rematch"
+    }
+  ]
+}
